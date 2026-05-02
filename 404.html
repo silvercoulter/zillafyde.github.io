@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        // Parse the requested path and redirect to the appropriate album modal
+        const path = window.location.pathname;
+        
+        let albumId = 'album-lies'; // default
+        
+        if (path.includes('/burden/')) {
+            albumId = 'album-burden';
+        } else if (path.includes('/acoustic/')) {
+            albumId = 'album-acoustic';
+        } else if (path.includes('/cover/')) {
+            albumId = 'album-cover';
+        } else if (path.includes('/lies/')) {
+            albumId = 'album-lies';
+        }
+        
+        // Redirect to home page with album modal hash
+        window.location.href = '/#' + albumId;
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>

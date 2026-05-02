@@ -1,0 +1,134 @@
+<!-- we see you -->
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="rock n roll mcdonalds">
+    <title>rock n' roll mcdonalds</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">    
+    <script src="albums.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo"><img src="asshats/logo_rectangle_small.webp" alt="Logo"></a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#shows" class="nav-link">Shows</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content Sections -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <img src="asshats/logo_rectangle_small.webp" alt="Logo" style="max-width: 400px; width: 90%; margin-bottom: 1rem;">
+            <p>Groove-Rock from Bloomington, IN</p>
+            <p class="tagline">A Groove-Rock Band with an Extensive Catalog of Originals and Covers</p>
+        </section>
+
+        <!-- Albums Section -->
+        <section id="shows" class="shows-section">
+            <h2>Listen</h2>
+            <div class="album-gallery">
+                <a href="#album-burden" class="album-thumb"><img src="asshats/photo_2023-05-01_10-12-04.webp" alt="BURDEN" style="width: 100%; height: 100%; object-fit: cover;"></a>
+                <a href="#album-acoustic" class="album-thumb"><img src="asshats/photo_2023-05-01_10-12-04.webp" alt="Acoustic Sessions" style="width: 100%; height: 100%; object-fit: cover;"></a>
+                <a href="#album-cover" class="album-thumb"><img src="asshats/photo_2023-05-01_10-12-04.webp" alt="Cover Collection" style="width: 100%; height: 100%; object-fit: cover;"></a>
+                <a href="#album-lies" class="album-thumb"><img src="asshats/photo_2023-05-01_10-12-04.webp" alt="LIES" style="width: 100%; height: 100%; object-fit: cover;"></a>
+            </div>
+        </section>
+
+        <!-- Album Modals -->
+        <!-- Album Modals (Generated from Template) -->
+        <div id="album-modals-container"></div>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2>About ROCK N' ROLL McDONALD'S</h2>
+            
+            <h3 style="color: #ff6b35; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 2px solid #333; padding-bottom: 0.5rem;">Biography</h3>
+            <p>Zillafyde is a groove rock band hailing from Bloomington, Indiana. They perform a mix of original compositions and popular cover songs, featuring an eclectic mix of styles that occasionally captivate and sometimes just confuse audiences. Drawing inspiration from classic artists like Led Zeppelin and Jimi Hendrix, contemporary artists like The Revivalists, improvisational acts like Umphrey's McGee and Goose, and rock duo Local H. We've synthesized it all into something that's either genius or unlistenable—you decide.</p>
+            
+            <h3 style="color: #ff6b35; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 2px solid #333; padding-bottom: 0.5rem;">History</h3>
+            <p>In late summer 2022, a group of musicians got together at the weekly open mic held at the Cabin Restaurant and Lounge. Scott and Silver's chemistry from these experiences helped create the wall of sound that eventually became Zillafyde.</p>
+            
+            <h3 style="color: #ff6b35; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 2px solid #333; padding-bottom: 0.5rem;">The Band</h3>
+            <div class="band-members" style="margin: 2rem 0;">
+                <div style="margin-bottom: 1.5rem; padding: 1rem; background-color: rgba(255, 107, 53, 0.05); border-left: 3px solid #ff6b35; display: flex; gap: 1rem;">
+                    <img src="asshats/photo_2023-05-01_10-12-04.webp" alt="Scott See" style="width: 100px; height: 100px; object-fit: cover; border-radius: 4px; flex-shrink: 0;">
+                    <div>
+                        <h4 style="color: #ff6b35; margin-bottom: 0.5rem;">Scott See</h4>
+                        <p>Frontman & Guitarist - Started playing guitar in 2002. Primary songwriter for the band. The guy who yells into the microphone while the rest of us try not to laugh.</p>
+                    </div>
+                </div>
+                <div style="margin-bottom: 1.5rem; padding: 1rem; background-color: rgba(255, 107, 53, 0.05); border-left: 3px solid #ff6b35; display: flex; gap: 1rem;">
+                    <img src="asshats/photo_2023-05-01_10-12-04.webp" alt="Silver Coulter" style="width: 100px; height: 100px; object-fit: cover; border-radius: 4px; flex-shrink: 0;">
+                    <div>
+                        <h4 style="color: #ff6b35; margin-bottom: 0.5rem;">Silver Coulter</h4>
+                        <p>Co-founder & Lead Guitarist - Over 20 years of guitar experience. Influences include Led Zeppelin, Brad Paisley, Local H, and Tool. Secretly checks the setlist three times before every show.</p>
+                    </div>
+                </div>
+                <div style="margin-bottom: 1.5rem; padding: 1rem; background-color: rgba(255, 107, 53, 0.05); border-left: 3px solid #ff6b35; display: flex; gap: 1rem;">
+                    <img src="asshats/photo_2023-05-01_10-12-04.webp" alt="Joey Carpenter" style="width: 100px; height: 100px; object-fit: cover; border-radius: 4px; flex-shrink: 0;">
+                    <div>
+                        <h4 style="color: #ff6b35; margin-bottom: 0.5rem;">Joey Carpenter</h4>
+                        <p>Drums - Playing in bands since high school. Influences from Tool, Tower of Power, and Led Zeppelin. Hits things harder than anyone has a right to.</p>
+                    </div>
+                </div>
+                <div style="margin-bottom: 1.5rem; padding: 1rem; background-color: rgba(255, 107, 53, 0.05); border-left: 3px solid #ff6b35; display: flex; gap: 1rem;">
+                    <img src="asshats/photo_2023-05-01_10-12-04.webp" alt="Brady Mikels" style="width: 100px; height: 100px; object-fit: cover; border-radius: 4px; flex-shrink: 0;">
+                    <div>
+                        <h4 style="color: #ff6b35; margin-bottom: 0.5rem;">Brady Mikels</h4>
+                        <p>Bass & Guitar - From Bedford, Indiana. Playing since age 10. Inspired by Led Zeppelin, Gary Clark Jr., The Doors, and Marcus King. The quiet one until the bass drops.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Merch Section -->
+        <section id="merch" class="merch-section">
+            <h2>Zillafyde Merch</h2>
+            <p style="text-align: center; margin-bottom: 2rem; color: #d0d0d0;">Available at all shows! Check the Tour Calendar for details.</p>
+            <div class="merch-gallery">
+                <div class="merch-card">
+                    <div class="merch-image"><img src="asshats/photo_2023-05-01_10-12-04.webp" alt="T-Shirts" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                </div>
+                <div class="merch-card">
+                    <div class="merch-image"><img src="asshats/photo_2023-05-01_10-12-04.webp" alt="Hats" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                </div>
+                <div class="merch-card">
+                    <div class="merch-image"><img src="asshats/photo_2023-05-01_10-12-04.webp" alt="Vinyl" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                </div>
+                <div class="merch-card">
+                    <div class="merch-image"><img src="asshats/photo_2023-05-01_10-12-04.webp" alt="Live Recordings" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Bookings</h2>
+            <p>Interested in booking ZILLAFYDE? We show up on time, mostly. Get in touch!</p>
+            <p class="booking-email"><a href="mailto:booking@zillafyde.com">booking@zillafyde.com</a></p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/Zillafyde/" class="social">Facebook</a>
+                <a href="https://www.instagram.com/zillafyde/" class="social">Instagram</a>
+                <a href="https://www.youtube.com/@zillafyde" class="social">YouTube</a>
+                <a href="https://twitter.com/zillafyde" class="social">Twitter</a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; MMXXVI ROCK N' ROLL McDONALD'S (ZILLAFYDE). ALL RIGHTS RESERVED.</p>
+    </footer>
+
+
+</body>
+</html>
