@@ -71,7 +71,7 @@ const albumsData = [
     {
         id: 'album-acoustic',
         title: 'Acoustic Sessions',
-        subtitle: 'Intimate performances',
+        subtitle: 'https://wfhb.org/wfhb-welcomes-zillafyde-to-saturdays-child/',
         spotifyUrl: '#',
         appleUrl: '#',
         youtubeUrl: '#',
@@ -79,7 +79,7 @@ const albumsData = [
             { title: 'WFHB Saturdays Child, lyrics: '[Track information coming soon]' }
         ],
         credits: [
-            { name: 'Find it here:', role: 'https://wfhb.org/wfhb-welcomes-zillafyde-to-saturdays-child/' }
+            { name: 'Credits:', role: 'WFHB' }
         ]
     },
     {
