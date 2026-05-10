@@ -47,7 +47,7 @@ const albumsData = [
             { title: 'The Ride', lyrics: '[Lyrics coming soon]' },
             { title: 'Nerve', lyrics: '[Lyrics coming soon]' },
             { title: 'Feels Right', lyrics: '[Lyrics coming soon]' },
-            { title: 'not ok', lyrics: '[Lyrics coming soon]' },
+            { title: 'not ok', lyrics: '[instrumental]' },
             { title: 'Okay', lyrics: '[Lyrics coming soon]' },
             { title: 'Jaded Eyes', lyrics: '[Lyrics coming soon]' },
             { title: 'Off the Kuff', lyrics: '[Lyrics coming soon]' },
@@ -76,10 +76,10 @@ const albumsData = [
         appleUrl: '#',
         youtubeUrl: '#',
         tracklist: [
-            { title: 'Coming Soon', lyrics: '[Track information coming soon]' }
+            { title: 'WFHB Saturdays Child, lyrics: '[Track information coming soon]' }
         ],
         credits: [
-            { name: 'TBA', role: 'Information coming soon' }
+            { name: 'Find it here:', role: 'https://wfhb.org/wfhb-welcomes-zillafyde-to-saturdays-child/' }
         ]
     },
     {
