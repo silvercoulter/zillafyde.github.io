@@ -117,6 +117,16 @@ body {
     text-transform: uppercase;
 }
 
+/* Social Section */
+.social-section { padding: 1rem 0; text-align: center; }
+.social-row { display: inline-flex; gap: 12px; align-items: center; }
+.social-link { display: inline-flex; width: 48px; height: 48px; align-items: center; justify-content: center; border-radius: 8px; text-decoration: none; }
+.social-link img { width: 24px; height: 24px; display: block; }
+.social-link:focus { outline: 3px solid #ff6b35; outline-offset: 3px; }
+.social-link.spotify { color: #1DB954; }
+.social-link.apple { color: #000; }
+.social-link.youtube { color: #FF0000; }
+
 /* Shows Section */
 .shows-section {
     margin-bottom: 4rem;
