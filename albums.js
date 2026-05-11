@@ -75,13 +75,28 @@ const albumsData = [
         title: 'Acoustic Sessions',
         subtitle: 'https://wfhb.org/wfhb-welcomes-zillafyde-to-saturdays-child/',
         spotifyUrl: '#',
-        appleUrl: '#',
+        appleUrl: 'https://podcasts.apple.com/us/podcast/wfhb-welcomes-chillafyde-to-saturdays-child/id1737236882?i=1000761132115',
         youtubeUrl: '#',
         tracklist: [
-            { title: 'WFHB Saturdays Child, lyrics: '[Track information coming soon]' }
+            { title: 'WFHB Saturdays Child', lyrics: `1. Okay
+                2. Regrets
+                3. Jaded Eyes
+                4. Set Me Free
+                5. Get it Right
+                (Set Break and interview)
+                6. With Me
+                7. Don't Know
+                8. Burden
+                9. Molly
+                10. It's Hot Don
+                11. Capo 4` },
         ],
         credits: [
-            { name: 'Credits:', role: 'WFHB' }
+            { name: 'Show', role: 'WFHB Saturdays Child' },
+            { name: 'Scott D. See', role: 'Writer, vocalist, guitar,' },
+            { name: 'Silver Coulter', role: 'Backup vocals, lead guitar' },
+            { name: 'Duck', role: 'Conga' },
+            { name: 'Spencer Sherman', role: 'Bass' },
         ]
     },
     {
