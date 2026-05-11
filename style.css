@@ -484,23 +484,23 @@ body {
 }
 
 .album-thumb {
+    /*
     width: 100%;
-    height: auto; /* lets aspect-ratio dictate size */
+    height: auto; 
     display: block;
     cursor: pointer;
     border: 2px solid #333;
     border-left: 4px solid #ff6b35;
     transition: all 0.3s ease;
     overflow: hidden;
+    */
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    object-position: center top !important;
+    display: block !important;
 }
 
-.album-thumb img {
-display: block;
-width: 100%;
-height: 100%;
-object-fit: contain; / or 'cover' with object-position:center top */
-object-position: center top;
-}
 
 .album-thumb:hover {
     border-color: #ff6b35;
