@@ -8,7 +8,9 @@ const albumsData = [
         appleUrl: 'https://music.apple.com/us/artist/zillafyde/1713588790',
         youtubeUrl: 'https://www.youtube.com/channel/UCMd6K2DBAiKF0CtdI2RxHtg',
         tracklist: [
-            { title: 'Open Roads', lyrics: '[Lyrics coming soon]' },
+            { title: 'Open Roads', lyrics: `Line 1 of lyrics
+                Line 2 of lyrics
+                Line 3 — chorus` },
             { title: 'On Your Side', lyrics: '[Lyrics coming soon]' },
             { title: "It's Hot Don", lyrics: '[Lyrics coming soon]' },
             { title: 'Back Pain', lyrics: '[Lyrics coming soon]' },
