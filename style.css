@@ -118,14 +118,84 @@ body {
 }
 
 /* Social Section */
-.social-section { padding: 1rem 0; text-align: center; }
-.social-row { display: inline-flex; gap: 12px; align-items: center; }
-.social-link { display: inline-flex; width: 48px; height: 48px; align-items: center; justify-content: center; border-radius: 8px; text-decoration: none; }
-.social-link img { width: 24px; height: 24px; display: block; }
-.social-link:focus { outline: 3px solid #ff6b35; outline-offset: 3px; }
-.social-link.spotify { color: #1DB954; }
-.social-link.apple { color: #000; }
-.social-link.youtube { color: #FF0000; }
+.social-section { 
+    padding: 1rem 0; 
+    text-align: center; 
+}
+
+.social-row { 
+    display: inline-flex; 
+    gap: 12px; 
+    align-items: center; 
+}
+
+.social-link { 
+    display: inline-flex; 
+    width: 48px; 
+    height: 48px; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 8px; 
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.social-link img { 
+    width: 24px; 
+    height: 24px; 
+    display: block; 
+}
+
+.social-link:focus { 
+    outline: 3px solid #ff6b35; 
+    outline-offset: 3px; 
+}
+
+.social-link.spotify { 
+    background-color: #1DB954; 
+}
+
+.social-link.spotify:hover {
+    background-color: #1ed760;
+    transform: scale(1.1);
+}
+
+.social-link.apple { 
+    background-color: #000; 
+    border: 2px solid #e0e0e0;
+}
+
+.social-link.apple:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+}
+
+.social-link.youtube { 
+    background-color: #FF0000; 
+}
+
+.social-link.youtube:hover {
+    background-color: #cc0000;
+    transform: scale(1.1);
+}
+
+.social-link.bandcamp {
+    background-color: #1ea0e6;
+}
+
+.social-link.bandcamp:hover {
+    background-color: #2bb3f7;
+    transform: scale(1.1);
+}
+
+.social-link.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-link.instagram:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
 
 /* Shows Section */
 .shows-section {
