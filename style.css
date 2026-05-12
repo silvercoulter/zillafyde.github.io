@@ -567,7 +567,17 @@ body {
     color: #0a0a0a;
 }
 
-/* Album Gallery Grid */
+@keyframes dropIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px); /* Starts 40px higher */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Ends at its normal position */
+    }
+}
+
 /* Album Gallery - Flexbox */
 .album-gallery {
     display: flex;
@@ -577,12 +587,17 @@ body {
     margin-top: 2rem;
 }
 
-/* Fixed width so they don't stretch across the screen */
+/* Fixed width so they NEVER stretch across the screen */
 .album-item {
-    width: 250px; 
+    flex: 0 0 250px; /* 0 grow, 0 shrink, exactly 250px */
+    max-width: 250px; /* Double security to prevent stretching */
     display: flex;
     flex-direction: column;
     text-align: center;
+    
+    /* Animation we added earlier */
+    opacity: 0;
+    animation: dropIn 0.6s ease-out forwards;
 }
 
 /* Perfect square for album art */
@@ -609,11 +624,17 @@ body {
 
 /* responsive */
 @media (max-width: 800px) {
-  .album-item { width: 160px; }
+  .album-item { 
+      flex: 0 0 200px;
+      max-width: 200px; 
+  }
 }
+
 @media (max-width: 500px) {
-  .album-item { width: 48%; } /* two per row on small screens */
-}
+  .album-item { 
+      flex: 0 0 48%; /* Allows two per row on mobile */
+      max-width: 48%; 
+  }
 
 .album-caption {
     color: #ff6b35;
