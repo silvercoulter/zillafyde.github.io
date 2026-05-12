@@ -9,8 +9,8 @@ const albumsData = [
         youtubeUrl: 'https://www.youtube.com/channel/UCMd6K2DBAiKF0CtdI2RxHtg',
         tracklist: [
             { title: 'Open Roads', lyrics: `Line 1 of lyrics
-                Line 2 of lyrics
-                Line 3 — chorus` },
+        Line 2 of lyrics
+        Line 3 — chorus` },
             { title: 'On Your Side', lyrics: '[Lyrics coming soon]' },
             { title: "It's Hot Don", lyrics: '[Lyrics coming soon]' },
             { title: 'Back Pain', lyrics: '[Lyrics coming soon]' },
@@ -73,30 +73,42 @@ const albumsData = [
     {
         id: 'album-acoustic',
         title: 'Acoustic Sessions',
-        subtitle: 'https://wfhb.org/wfhb-welcomes-zillafyde-to-saturdays-child/',
+        subtitle: '<a href="https://wfhb.org/wfhb-welcomes-zillafyde-to-saturdays-child/" target="_blank" rel="noopener noreferrer" style="color: #ff6b35; text-decoration: underline;">WFHB Welcomes Zillafyde to Saturday\'s Child</a>',
         spotifyUrl: '#',
         appleUrl: 'https://podcasts.apple.com/us/podcast/wfhb-welcomes-chillafyde-to-saturdays-child/id1737236882?i=1000761132115',
-        youtubeUrl: '#',
         tracklist: [
-            { title: 'WFHB Saturdays Child', lyrics: `1. Okay
-                2. Regrets
-                3. Jaded Eyes
-                4. Set Me Free
-                5. Get it Right
-                (Set Break and interview)
-                6. With Me
-                7. Don't Know
-                8. Burden
-                9. Molly
-                10. It's Hot Don
-                11. Capo 4` },
+            { title: 'WFHB Saturday\'s Child', lyrics: `1. Okay
+        2. Regrets
+        3. Jaded Eyes
+        4. Set Me Free
+        5. Get it Right
+        (Set Break and interview)
+        6. With Me
+        7. Don't Know
+        8. Burden
+        9. Molly
+        10. It's Hot Don
+        11. Capo 4` },
         ],
         credits: [
-            { name: 'Show', role: 'WFHB Saturdays Child' },
+            { name: 'Show', role: 'WFHB Saturday\'s Child' },
             { name: 'Scott D. See', role: 'Writer, vocalist, guitar,' },
             { name: 'Silver Coulter', role: 'Backup vocals, lead guitar' },
             { name: 'Duck', role: 'Conga' },
             { name: 'Spencer Sherman', role: 'Bass' },
+            { name: 'Monroe County History Center', role: 'Venue and supporter of Saturday\'s Child' },
+            { name: 'Loren Wood Builders', role: 'Supporter of Saturday\'s Child' },
+            { name: 'Jeffery (Sundog) Morris', role: 'Creator, Chief Engineer, Executive Producer' },
+            { name: 'Jim Lang', role: 'Symbols and Sounds' },
+            { name: 'Marion', role: 'Cables and Connections' },
+            { name: 'Ilsa', role: 'Digital Doohickies and Archival Production' },
+            { name: 'Kaiya', role: 'Booking assistance' },
+            { name: 'Ella copa', role: 'Archives' },
+            { name: 'Terry mason', role: 'Time in tune' },
+            { name: 'Joe luke', role: 'Everything Else' },
+            { name: 'Jack Laskey', role: 'Studio Engineer' },
+            { name: 'D. James', role: 'Host' },
+            { name: 'Sundog Productions', role: 'Production Company' },
         ]
     },
     {
@@ -135,7 +147,7 @@ function generateAlbumModal(album) {
             <div class="modal-content modal-large">
                 <a href="#" class="close-modal">&times;</a>
                 <div class="modal-header">
-                    <img src="asshats/photo_2023-05-01_10-12-04.webp" alt="${album.title}" class="modal-artwork-large">
+                    <img src="pics/burden.png" alt="${album.title}" class="modal-artwork-large">
                     <div class="modal-header-info">
                         <h2>${album.title}</h2>
                         <p style="color: #ff6b35; font-style: italic; margin-bottom: 1rem;">${album.subtitle}</p>
