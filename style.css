@@ -588,6 +588,12 @@ body {
     box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3);
 }
 
+.album-caption {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #222;
+}
+
 /* Album Modal */
 .album-modal {
     display: none;
