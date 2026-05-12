@@ -589,9 +589,10 @@ body {
 }
 
 .album-caption {
-  margin-top: 8px;
-  font-size: 0.95rem;
-  color: #222;
+    font-family: 'Courier New', 'Monaco', monospace;
+    background-color: #000000;
+    color: #e0e0e0;
+    line-height: 1.6;
 }
 
 /* Album Modal */
