@@ -563,6 +563,13 @@ body {
     margin-bottom: 2rem;
 }
 
+.album-thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
 .album-thumb {
     width: 100%;
     height: auto; 
