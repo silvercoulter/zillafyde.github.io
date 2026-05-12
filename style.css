@@ -45,6 +45,16 @@ body {
     align-items: center;
 }
 
+/* Horizontal Section Divider */
+.section-divider {
+    border: none;
+    height: 3px;
+    background-color: #ff6b35; /* Matches your theme's accent color */
+    margin: 4rem auto; /* Adds spacing above and below */
+    max-width: 1200px; /* Keeps it aligned with your container width */
+    width: 100%;
+}
+
 .logo img {
     height: 50px;
     width: auto;
