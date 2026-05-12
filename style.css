@@ -563,24 +563,44 @@ body {
     margin-bottom: 2rem;
 }
 
-.album-thumb img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
+.album-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.album-item {
+  width: 200px;            /* thumbnail card width - change as needed */
+  text-align: center;
 }
 
 .album-thumb {
-    width: 100%;
-    height: auto; 
-    display: block;
-    cursor: pointer;
-    border: 2px solid #333;
-    border-left: 4px solid #ff6b35;
-    transition: all 0.3s ease;
-    overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 150px;           /* visible thumbnail height */
+  overflow: hidden;
+  border: 2px solid #333;
+  border-left: 4px solid #ff6b35;
+  transition: transform 0.3s ease;
 }
 
+.album-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* fills the thumbnail neatly */
+  display: block;
+}
+
+/* optional hover effect */
+.album-item:hover .album-thumb {
+  transform: scale(1.03);
+}
+
+/* responsive: reduce size on small screens */
+@media (max-width: 600px) {
+  .album-item { width: 140px; }
+  .album-thumb { height: 120px; }
+}
 
 .album-thumb:hover {
     border-color: #ff6b35;
