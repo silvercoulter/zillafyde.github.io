@@ -4,13 +4,14 @@ const albumsData = [
         id: 'album-burden',
         title: 'BURDEN',
         subtitle: 'Released December 15, 2025',
+        image: 'pics/burden.png',
         spotifyUrl: 'https://open.spotify.com/artist/3sQXBRWZf6bXRj95DoBrPQ',
         appleUrl: 'https://music.apple.com/us/artist/zillafyde/1713588790',
         youtubeUrl: 'https://www.youtube.com/channel/UCMd6K2DBAiKF0CtdI2RxHtg',
         tracklist: [
             { title: 'Open Roads', lyrics: `Line 1 of lyrics
-        Line 2 of lyrics
-        Line 3 — chorus` },
+                Line 2 of lyrics
+                Line 3 — chorus` },
             { title: 'On Your Side', lyrics: '[Lyrics coming soon]' },
             { title: "It's Hot Don", lyrics: '[Lyrics coming soon]' },
             { title: 'Back Pain', lyrics: '[Lyrics coming soon]' },
@@ -35,6 +36,7 @@ const albumsData = [
         id: 'album-lies',
         title: 'LIES',
         subtitle: 'Debut Album - October 14, 2023',
+        image: 'pics/lies.webp',
         spotifyUrl: 'https://open.spotify.com/album/3TT0RoI0hMULrd8yaPqp9G',
         appleUrl: 'https://music.apple.com/us/album/lies/1713727398',
         youtubeUrl: 'https://www.youtube.com/watch?v=xMTIrEa150E&list=PL4l2wwD3V9dGCtsbwo8ccbJbxYvKqNTQz&pp=iAQB',
@@ -74,21 +76,23 @@ const albumsData = [
         id: 'album-acoustic',
         title: 'Acoustic Sessions',
         subtitle: '<a href="https://wfhb.org/wfhb-welcomes-zillafyde-to-saturdays-child/" target="_blank" rel="noopener noreferrer" style="color: #ff6b35; text-decoration: underline;">WFHB Welcomes Zillafyde to Saturday\'s Child</a>',
+        image: 'pics/chillafyde.jpg',
         spotifyUrl: '#',
         appleUrl: 'https://podcasts.apple.com/us/podcast/wfhb-welcomes-chillafyde-to-saturdays-child/id1737236882?i=1000761132115',
+        youtubeUrl: '#',
         tracklist: [
             { title: 'WFHB Saturday\'s Child', lyrics: `1. Okay
-        2. Regrets
-        3. Jaded Eyes
-        4. Set Me Free
-        5. Get it Right
-        (Set Break and interview)
-        6. With Me
-        7. Don't Know
-        8. Burden
-        9. Molly
-        10. It's Hot Don
-        11. Capo 4` },
+                2. Regrets
+                3. Jaded Eyes
+                4. Set Me Free
+                5. Get it Right
+                (Set Break and interview)
+                6. With Me
+                7. Don't Know
+                8. Burden
+                9. Molly
+                10. It's Hot Don
+                11. Capo 4` },
         ],
         credits: [
             { name: 'Show', role: 'WFHB Saturday\'s Child' },
@@ -115,6 +119,7 @@ const albumsData = [
         id: 'album-cover',
         title: 'Cover Collection',
         subtitle: 'Reimagined classics',
+        image: 'asshats/photo_2023-05-01_10-12-04.webp',
         spotifyUrl: '#',
         appleUrl: '#',
         youtubeUrl: '#',
@@ -147,7 +152,7 @@ function generateAlbumModal(album) {
             <div class="modal-content modal-large">
                 <a href="#" class="close-modal">&times;</a>
                 <div class="modal-header">
-                    <img src="pics/burden.png" alt="${album.title}" class="modal-artwork-large">
+                    <img src="${album.image}" alt="${album.title}" class="modal-artwork-large">
                     <div class="modal-header-info">
                         <h2>${album.title}</h2>
                         <p style="color: #ff6b35; font-style: italic; margin-bottom: 1rem;">${album.subtitle}</p>
