@@ -319,21 +319,356 @@ const albumsData = [
         appleUrl: 'https://music.apple.com/us/album/lies/1713727398',
         youtubeUrl: 'https://www.youtube.com/watch?v=xMTIrEa150E&list=PL4l2wwD3V9dGCtsbwo8ccbJbxYvKqNTQz&pp=iAQB',
         tracklist: [
-            { title: 'Loose', lyrics: '[Lyrics coming soon]' },
-            { title: 'Bad Company', lyrics: '[Lyrics coming soon]' },
-            { title: 'Whirlwind', lyrics: '[Lyrics coming soon]' },
-            { title: 'The Devil', lyrics: '[Lyrics coming soon]' },
+            { title: 'Loose', lyrics: `Written by Scott D. See
+Oo, baby grab your boots, ya’ll it’s time for you to get loose,
+Oh babe whatcha wanna do, ooo yeah I coming for you,
+Yeah baby grab your boots, it’s time for you to get loose,
+Your poppin’ off those 1’s &amp; 2’s, oh yeah just like you do,
+Oo babe I can see you going down, honey just like is town,
+And I ain’t going down, like they’re all going down,
+I see whats been before, and what they said on that floor,
+But they don’t know anymore what all this shit is for,
+Ooo baby grab your boots, oh baby come get loose,
+Oh lets take a ride, yeah baby it’s alright,
+Oh baby grab your boots, yeah baby come get loose,
+Oh let’stake a ride, yeah baby it’s alright,
+Well now it’s alright, yeah we got a little loose tonight,
+Oh it felt so damn right, my body yours and wine,
+Ooo then we doin’ it right, yeah baby get that light,
+Oh pack it one more time, yah let’s get down tonight,
+Oo baby come get loose, oh yeah bring them boots,
+Yeah baby take a ride, oh baby come inside,
+Oo baby grab them boots, might get hit loose,
+Oh we’ll be taken all night, it’s going down tonight,
+Yeah gab your boots, It's time to get loose.Oo, baby grab your boots, ya’ll it’s time for you to get loose,
+Oh babe whatcha wanna do, ooo yeah I coming for you,
+Yeah baby grab your boots, it’s time for you to get loose,
+Your poppin’ off those 1’s and 2’s, oh yeah just like you do,
+Oo babe I can see you going down, honey just like is town,
+And I ain’t going down, like they’re all going down,
+I see whats been before, and what they said on that floor,
+But they don’t know anymore what all this shit is for,
+Ooo baby grab your boots, oh baby come get loose,
+Oh lets take a ride, yeah baby it’s alright,
+Oh baby grab your boots, yeah baby come get loose,
+Oh let’stake a ride, yeah baby it’s alright,
+Well now it’s alright, yeah we got a little loose tonight,
+Oh it felt so damn right, my body yours and wine,
+Ooo then we doin’ it right, yeah baby get that light,
+Oh pack it one more time, yah let’s get down tonight,
+Oo baby come get loose, oh yeah bring them boots,
+Yeah baby take a ride, oh baby come inside,
+Oo baby grab them boots, might get hit loose,
+Oh we’ll be taken all night, it’s going down tonight,
+Yeah gab your boots, It&#39;s time to get loose.
+` },
+            { title: 'Bad Company', lyrics: `Written by Scott D. See
+Oh! Ooo baby what you want from me, ooo yeah,
+tell me what I can do, For you
+Acting like I owe a god damn thing to you, honey,
+The only thing I need is less of you,
+Oh yeah, Baby you gotta get it right, Your light,
+I know, My darlin’ that you’re just to high,
+On your life, yeah
+Well sugar I just don’t know anymoe,
+Why you’re here or what the fuck we’re fighting for,
+You’re such a bore,
+You’re coming at me with one, two three and four,
+So many reasons that I want you out my door,
+Oh yeah, Baby you gotta get it right, Your light,
+I know, My darlin’ that you’re just to high,
+On your life, yeah
+(Jam)
+Oh yeah, Baby you gotta get it right, Your light,
+I know, My darlin’ that you’re just to high,
+On your life, yeaaaaaah
+            ` },
+            { title: 'Whirlwind', lyrics: `Written by Scott D. See
+
+Yeah, Oh, Yeah , I know, (2X)
+I don’t know, what youre coming for, or what you need,
+No I don’t know, what you come here for or what you seek,
+
+So I see you lookin at me now,
+And you think you might not go now,
+Yeah I feel I might feel it right now,
+But I guess youre feeling alright,
+And I know I’m feeling all right tonight,
+Then you get that, mmm mmm, mmm mmm yeah,
+I start feeling that, mmm mmm, mmm mmm yeah,
+
+Now your lost and amazed, love that look on your face,
+And I know it feels so damn right,
+Yeah like a brand new light, it shins so damn bright,
+Yeah its got you feeling all right, now we’re feeling all right
+tonight,
+
+Then you get that, mmm mmm, mmm mmm yeah,
+I start feeling that, mmm mmm, mmm mmm yeah,
+(Jam)
+So what you wanna know, I’ll know you,
+Where you wanna go, baby I’ll go too,
+What we got it feels so right, yeah it feels all right,
+Yeah were so damn right yeah, yeah,
+Yeah yeah yeah yeah yeah yeah yeaaaah….(Feels so right)
+            ` },
+            { title: 'The Devil', lyrics: `Written by Scott D. See and Danny Starcevich II
+There goes my baby, she’s walkin’ down the
+street,
+She’s taken everything, everything from me,
+Ooooh and I know, she’s the devil
+If she goes left boy, you better go right,
+A soul she’s stealing, by the end of the night,
+Yeah, yeah, she’s the devil,
+Ohh lord, she does it for me,
+Now here we are, she came back again,
+Right when I thought, that I might win,
+Oh no, she’s the devil,
+Oh lord, she does it for me,
+Broken down as the phone starts in ringing
+For a second I think maybe I’m sleeping
+But I’m awake, like so many times before,
+She took my soul a long time ago
+Yeah yeah she’s the devil,
+Oh lord She does it for me,
+Yeah yeah baby’s the devil,
+Oh lord she does it for me.
+            ` },
             { title: 'With Me', lyrics: '[Lyrics coming soon]' },
             { title: 'Molly', lyrics: '[Lyrics coming soon]' },
-            { title: 'Set Me Free', lyrics: '[Lyrics coming soon]' },
-            { title: 'The Ride', lyrics: '[Lyrics coming soon]' },
-            { title: 'Nerve', lyrics: '[Lyrics coming soon]' },
-            { title: 'Feels Right', lyrics: '[Lyrics coming soon]' },
+            { title: 'Set Me Free', lyrics: `Written by Scott D. See
+So you go, on down your dirty road,
+And honey I know you think you,
+I know you think you know
+But you don’t, yeah, I know you,
+And you don’t……know,
+So baby come and set me free,
+Yeah you know you’ll never come for me,
+Oh yeah you’re all I see,
+Honey yeah come and set me free,
+Yeah, now you put me on the line, yeah you did,
+Oh and I was something you could never find, but then you hid,
+Me, I put it all on the line, and you just hung me out to dry,
+Oh and never said why,
+Set me free, set me free, Yeah, it’s all I need,
+Oh now come and set me free, (oh let me be),
+( J A M )
+Set me free, come on and set me free,
+Oh baby, yeah you got it coming,
+You always did it for me,
+Oh yeah, oh yeah, oh yeah,
+I’m on the road (on the road yeah) (2X)
+Recovery (oh yeah), Recovery (yeah),
+I’m on the road, I’m on the road, for me,
+For me, for me, for me…yeah,
+So baby come and set me free,
+Don’t you know you’ll never come for me,
+Oh yeah you’re all I see,
+Honey come and set me free or baby rescue me.
+            ` },
+            { title: 'The Ride', lyrics: `Written by Scott D. See
+I can’t make it anymore, without you by my side.
+Seems like we’re going separate ways, but baby not tonight,
+
+Honey, you take me on a ride, it’s never felt like this,
+Being with you is so easy babe, I feel like we can’t miss,
+
+Take it away all this lone-li-ness,
+
+I can’t fake it anymore, there’s something about you,
+Your gravity’s taken ahold, much more than drawn to you,
+
+Baby you take me round and round, let’s let go for a round
+or two,
+Still I’m spinning baby, you feel that spinning too?
+
+Breakdown C, Am, E
+
+So lets tear it up honey, lets not tear it all down,
+Then as we fade, look back laughing at the how,
+Yeah we don’t know, but at least we should and you know
+we co
+            ` },
+            { title: 'Nerve', lyrics: `Written by Scott D. See
+Hey there my darlin won’t take me tonight,
+And I know where you comin’ from and I know you’re so right,
+So won’t you let it all out maybe we’ll se the light,
+And we’ll let it ride,
+Ooo lady if I had the nerve,
+I think maybe we might be absurd,
+Oh baby if I had the nerve,
+I bet it’d work (Yeah I bet it’d work),
+Well I never been so down since you let me that one fateful night,
+And I know that you lived so strong and I know that you’re fly,
+A little broken down from a broken man on the rise,
+Need to let it ride,
+Ooo lady if I had the nerve,
+I think maybe we might be absurd,
+Oh baby if I had the nerve,
+I bet it’d work
+Yeah I bet it’d work, (I bet it works)
+( J A M )
+So appease right now just like that we should,
+And I know I know we never thought that we would,
+A story book ending to this truth we cannot hide,
+Let’s set it right, yeah right,
+Yeah baby I have the nerve,
+I thank that maybe we might be absurd,
+Oh lady I had the nerve, Let it work.
+            ` },
+            { title: 'Feels Right', lyrics: `Written By Scott D. See
+I never knew that I could see so much more than I can see,
+The red flags like a crimson tide of truth that I should flee,
+But her hair it felt so nice as we lay there drunk that night,
+And I lost my soul to fight, I lost my sould that night
+
+I don’t know but it just feels right, yeah guess we’re going down
+tonight,
+And I know baby what you do, yeah I love everything that’s you,
+I don’t know but it just feels right yeah I guess we’re going round
+tonight,
+Feeling what it is we found tonight, laying here with you,
+
+Here we are yeah you came back around and led him all astray,
+You found him all locked down stuck living in the gray,
+He didn’t know that you could simply lie like a breath oh any sigh,
+So he fell and you just came right on back to what you do,
+
+I don’t know but it just feels right, yeah guess we’re going down
+tonight,
+And I know baby what you do, yeah I love everything that’s you,
+I don’t know but it just feels right yeah I guess we’re going round
+tonight,
+Feeling what it is we found tonight, laying here with you,            
+            ` },
             { title: 'not ok', lyrics: '[instrumental]' },
-            { title: 'Okay', lyrics: '[Lyrics coming soon]' },
-            { title: 'Jaded Eyes', lyrics: '[Lyrics coming soon]' },
-            { title: 'Off the Kuff', lyrics: '[Lyrics coming soon]' },
-            { title: 'Get it Right', lyrics: '[Lyrics coming soon]' }
+            { title: 'Okay', lyrics: `Written by Scott D. See
+Before you I could walk away,
+I’ll never know how it took no
+time, Ain’t no other way, to
+say,
+Yeah I’d say that I’ve lost my
+mind
+But it’s okay
+The words clear up yeah we’ll
+see if they even rhyme,
+They tell about what you did,
+Oh and how you crossed the
+line so many time,
+Yet I’m okay,
+Oh and you try so hard, to fake
+it now, Down you drug me so
+far,
+But I found my way,
+And I’m okay
+I tried so hard to get by, then
+you came around,
+Got me so damn lost it like I
+could never even found,
+And It’s Okay
+Yeah I moved on and found
+myself and I’m a better man,
+
+Though you broke my heart
+with that slight of hand,
+Oh oh yeah but im okay
+Oh and I try so very hard to
+get by (get by)
+And I don’t know how far I will
+fly,
+But I’m okay
+Yeah okay, yeah okay, yeah
+okay,
+Oh and you never,
+Yeah you never got it right,
+Yes I know that I’ll never,
+No I’ll never need your light,
+Cause honey I’m okay
+            ` },
+            { title: 'Jaded Eyes', lyrics: `Written By Scott D. See
+Honey you, You thought you were smooth,
+So smooth, Baby now you, You do what you do,
+You go left, Baby I’ll go right
+Yeah I won’t be with you, If I’m lucky tonight,
+‘Cause I see your lies, Through your jaded eyes,
+Baby I see your lies, Through your jaded eyes,
+Yeah that’s all right, What you did that night,
+But you were always, Only alright,
+So go on you’re there, Baby I will not last,
+I’ve had enough, I’ve had enough, But now I’m back!?
+Yeah I see your lies, Through your jaded eyes,
+Baby I see your lies, Through your jaded eyes, your jaded eyes
+Your jaded eyes
+Jaded eyes (x3), All your lies,
+Jaded eyes (x2), All your lies
+I’m fine, baby, yeah I’m doing alright, I’m alright
+Now you, should Be glad that we’re through,
+There’s more that you want from me, baby
+Than I’m willing to do, Babe go on your way,
+You never crossed my mind anyway,
+Until the day, until the day I wrote that line.
+About your, jade green eyes,
+baby, oh and All your lies, all your lies
+            ` },
+            { title: 'Off the Kuff', lyrics: `Written By Scott D. See
+Well I went out the other day,
+Yeah I knew shit would go my way,
+Oh yeah, baby yeah, you know I’m feeling alright
+Hey now I hear its going down,
+You ladies tear up this fucking town,
+Oh yeah, lady yeah, I know your feeling all right,
+I’ve said it too many times before,
+Ooo yeah baby give me some more, some more, some
+more,
+It&#39;s getting late, you grab all your friends,
+I’ll go get my boys, see we might fit in,
+As I’ve said too many times before,
+Yeah baby give me some more, Some more, some more,
+So you beat me down, got me bloodied on the floor,
+Oh honey I’m so fucking down, this shit mightnot work no
+more, As I said so many times before, baby give me some
+more, some more, some more,` },
+            { title: 'Get it Right', lyrics: `Written by Scott D. See
+
+Can I get it right, ooo just one time,
+Yeah this life, never feels quite like mine,
+Can I get it right, ooo just one time,
+Yeah this life, maybe I should find time
+Maybe I should find/try.
+
+Just one more time, I guess maybe I’ll try,
+All in time, see what just feels right,
+But I can find, everything I need in it,
+You’ll see, everything as you see it is,
+
+So I fight and maybe Ill find, My own way down,
+These roads as they wind (2X)
+
+It feels so hard, living in the moment,
+But it’s your life, you gotta own it,
+Even when it seems so , seems so grey,
+
+But you’re still stuck at, the door to yesterday,
+
+You wanna leave, but you’re only half way, you
+gotta let it down, oh and get it right, yeah its your
+life, its your life
+
+So now take this down and turn it all around ,
+Yeah its all on, it’s all on you,
+You gotta Break it down, place blame on you,
+It’s just what you do,
+
+It’s what you do, it’s whay you do, it’s what you
+do, Its what you do for you.
+
+Now you take a stand, take your life,
+You got your gameplan, start it out tonight,
+Control is taken and, now its time to fight,
+It’s what you make it man, make it your life,
+
+Get it right, Oh it’s your life…
+            ` }
         ],
         credits: [
             { name: 'Scott D. See', role: 'Writer, vocalist, guitar, additional percussion' },
