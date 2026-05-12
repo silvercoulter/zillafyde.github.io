@@ -557,55 +557,46 @@ body {
 
 /* Album Gallery */
 .album-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.album-gallery {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row; /* default but explicit */
+  flex-wrap: wrap;     /* allow multiple rows when needed */
   gap: 16px;
+  align-items: flex-start;
 }
 
+/* thumbnail card width — NOT 100% */
 .album-item {
-  width: 200px;            /* thumbnail card width - change as needed */
+  width: 200px;        /* or use flex: 0 0 200px; */
   text-align: center;
 }
 
-.album-thumb {
-  display: block;
-  width: 100%;
-  height: 150px;           /* visible thumbnail height */
-  overflow: hidden;
-  border: 2px solid #333;
-  border-left: 4px solid #ff6b35;
-  transition: transform 0.3s ease;
+/* alternative: use flexible columns */
+.album-item.flex-col {
+  flex: 0 0 calc(25% - 16px); /* 4 per row with gap */
+  max-width: calc(25% - 16px);
 }
 
+/* thumbnail box */
+.album-thumb {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+/* image fills the box */
 .album-thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;       /* fills the thumbnail neatly */
+  object-fit: cover;
   display: block;
 }
 
-/* optional hover effect */
-.album-item:hover .album-thumb {
-  transform: scale(1.03);
+/* responsive */
+@media (max-width: 800px) {
+  .album-item { width: 160px; }
 }
-
-/* responsive: reduce size on small screens */
-@media (max-width: 600px) {
-  .album-item { width: 140px; }
-  .album-thumb { height: 120px; }
-}
-
-.album-thumb:hover {
-    border-color: #ff6b35;
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3);
+@media (max-width: 500px) {
+  .album-item { width: 48%; } /* two per row on small screens */
 }
 
 .album-caption {
