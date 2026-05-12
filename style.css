@@ -557,19 +557,20 @@ body {
     color: #0a0a0a;
 }
 
-/* Album Gallery */
+/* Album Gallery Grid */
 .album-gallery {
-  display: flex;
-  flex-direction: row; /* default but explicit */
-  flex-wrap: wrap;     /* allow multiple rows when needed */
-  gap: 16px;
-  align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    align-items: start;
 }
 
-/* thumbnail card width — NOT 100% */
 .album-item {
-  width: 200px;        /* or use flex: 0 0 200px; */
-  text-align: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 /* alternative: use flexible columns */
