@@ -568,32 +568,35 @@ body {
 }
 
 /* Album Gallery Grid */
+/* Album Gallery - Flexbox */
 .album-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center; /* Centers the albums horizontally */
     margin-top: 2rem;
-    align-items: start;
 }
 
+/* Fixed width so they don't stretch across the screen */
 .album-item {
-    width: 100%;
-    text-align: center;
+    width: 250px; 
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
-/* alternative: use flexible columns */
-.album-item.flex-col {
-  flex: 0 0 calc(25% - 16px); /* 4 per row with gap */
-  max-width: calc(25% - 16px);
-}
-
-/* thumbnail box */
+/* Perfect square for album art */
 .album-thumb {
-  width: 100%;
-  height: 150px;
-  overflow: hidden;
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Forces the box to be a perfect square */
+    overflow: hidden;
+    border: 2px solid #333; /* Matches your merch style */
+    border-bottom: none; /* Blends nicely if the caption is right below */
+}
+
+
+.album-item:hover .album-thumb img {
+    transform: scale(1.05); /* Optional: adds a slight zoom on hover */
 }
 
 /* image fills the box */
@@ -622,10 +625,8 @@ body {
     border: 2px solid #333;
     background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
     transition: all 0.3s ease;
-
     font-family: 'Courier New', 'Monaco', monospace;
     background-color: #000000;
-    color: #e0e0e0;
     line-height: 1.6;
 }
 
