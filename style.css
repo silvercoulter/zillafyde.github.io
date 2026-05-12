@@ -579,43 +579,57 @@ body {
     }
 }
 
-/* Album Gallery - Flexbox */
-.album-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    margin-top: 2rem;
-    align-items: stretch; /* Makes sure all columns stretch to equal heights */
+/* Drop-In Animation */
+@keyframes dropIn {
+    0% { opacity: 0; transform: translateY(-40px); }
+    100% { opacity: 1; transform: translateY(0); }
 }
 
-/* 2. Album Items - Sizing and Animation Trigger */
+/* Album Gallery - Cloned from Merch Grid */
+.album-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Album Item - Cloned from Merch Card */
 .album-item {
-    flex: 0 0 250px; 
-    max-width: 250px; 
+    background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
+    border: 2px solid #333;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
-    text-align: center;
     
     /* Animation */
     opacity: 0;
     animation: dropIn 0.6s ease-out forwards;
 }
 
-/* Staggered Delays for the Waterfall Effect */
+/* Animation Delays */
 .album-item:nth-child(1) { animation-delay: 0.1s; }
 .album-item:nth-child(2) { animation-delay: 0.3s; }
 .album-item:nth-child(3) { animation-delay: 0.5s; }
 .album-item:nth-child(4) { animation-delay: 0.7s; }
 
-/* 3. Perfect square for album art (Forced Block for 'a' tag) */
+/* The Hover Effect - Cloned from Merch Card */
+.album-item:hover {
+    border-color: #ff6b35;
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(255, 107, 53, 0.2);
+}
+
+/* Album Image Container - Kept square but styled like Merch */
 .album-thumb {
-    display: block; /* CRITICAL FIX: Forces the <a> tag to respect sizing */
+    display: block;
     width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1; /* Keeps covers perfectly square */
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+    border-radius: 4px;
     overflow: hidden;
-    border: 2px solid #333;
-    border-bottom: none;
 }
 
 .album-thumb img {
@@ -623,75 +637,24 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.3s ease;
 }
 
-.album-item:hover .album-thumb img {
+/* Image Zoom on Hover */
+.album-item:hover .album-thumb {
     transform: scale(1.05);
 }
 
-/* 4. Captions - Flex-grow makes them all equal height */
-.album-caption {
-    flex-grow: 1; /* CRITICAL FIX: Stretches box to match others in the row */
-    display: flex;
-    align-items: center; /* Centers text vertically */
-    justify-content: center; /* Centers text horizontally */
-    
-    color: #ff6b35;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0;
-    font-size: 1.1rem;
-    padding: 1.5rem;
-    border: 2px solid #333;
-    background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
-    transition: all 0.3s ease;
-    font-family: 'Courier New', 'Monaco', monospace;
-    line-height: 1.6;
-}
-
-.album-caption:hover {
-    border-color: #ff6b35;
-    transform: translateY(-6px);
-    box-shadow: 0 8px 20px rgba(255, 107, 53, 0.2);
-}
-
-/* responsive */
-@media (max-width: 800px) {
-  .album-item { 
-      flex: 0 0 200px;
-      max-width: 200px; 
-  }
-}
-
-@media (max-width: 500px) {
-  .album-item { 
-      flex: 0 0 48%; 
-      max-width: 48%; 
-  }
-}
-
-
-@media (max-width: 500px) {
-  .album-item { 
-      flex: 0 0 48%; /* Allows two per row on mobile */
-      max-width: 48%; 
-  }
-
+/* Album Text - Stripped of clunky borders to match Merch text */
 .album-caption {
     color: #ff6b35;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 0.5rem;
     font-size: 1.1rem;
-    padding: 1.5rem;
-    border: 2px solid #333;
-    background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
-    transition: all 0.3s ease;
     font-family: 'Courier New', 'Monaco', monospace;
-    background-color: #000000;
-    line-height: 1.6;
+    margin-top: auto; /* Pushes text to the bottom evenly */
+    line-height: 1.4;
 }
+
 
 /* Album Modal */
 .album-modal {
